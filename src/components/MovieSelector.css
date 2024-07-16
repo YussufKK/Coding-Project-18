@@ -1,0 +1,14 @@
+.movie-selector select {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.2s;
+  }
+  
+  .movie-selector select:hover {
+    border-color: #888;
+  }
+  

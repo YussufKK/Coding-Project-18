@@ -1,0 +1,32 @@
+.rate-movie-button {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .star {
+    cursor: pointer;
+    font-size: 24px;
+    color: #ccc;
+    margin: 0 5px;
+    transition: color 0.2s;
+  }
+  
+  .star:hover {
+    color: gold;
+  }
+  
+  .star.selected {
+    color: gold;
+  }
+  
+  .feedback {
+    margin-top: 10px;
+    font-style: italic;
+    color: green;
+  }
+  
